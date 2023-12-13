@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "我的笔记",
   description: "学习记录",
-  base: '/blog/',
+  base: './',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
