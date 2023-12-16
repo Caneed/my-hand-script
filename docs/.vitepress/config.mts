@@ -1,15 +1,21 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "我的笔记",
   description: "学习记录",
   base: './',
+  srcDir: 'src',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      {
+        text: 'front-end',
+        items: [
+          { text: 'html', link: '/front-end/html/简单归纳' },
+          { text: 'css', link: '/front-end/css/css3的新特性' },
+          { text: 'js', link: '/front-end/js/数据类型' }
+        ]
+      }
     ],
 
     sidebar: [
