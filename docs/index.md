@@ -3,23 +3,18 @@
 layout: home
 
 hero:
-  name: "my-hand-script"
-  text: "learning of knowledge"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "我的学习笔记"
+  text: "学习前端，后端和其它计算机知识的记录"
+  tagline: 随便写写
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 前端三剑客
+    details: 包括html,css,js等记录
+  - title: 前端框架
+    details: vue2,vue3
+  - title: typescript
+    details: 类型体操
+  - title: 算法，数据结构
+    details: 前端常用数据结构，包括
 ---
 
